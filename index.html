@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+  
+/* social icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color:#3B5998;
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+.fa-youtube {
+  background: transparent;
+  color: white;
+
+}
+
+
+.social{
+padding-right: 10px; }
+
+ul li{
+  display: inline;
+  margin-right: 5px;
+  text-align: left;
+  padding-right: 13px;
+  border-radius: 0 30px 30px 0;
+  transition: all ls;
+  align-items: center;
+  justify-content: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.logo {
+    margin-left: 10px;
+    position: relative;
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  display: flex;
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img_parallax2.jpg");
+  min-height: 450px;
+}
+
+.bgimg-3 {
+  background-image: url("img_parallax4.jpg");
+  min-height: 450px;
+}
+
+.caption {
+  font-family:Book Antiqua;
+  opacity: 0.80;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.list{
+  margin-top:50px;
+}
+
+.foot {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family:Book Antiqua;
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0%; 
+    left: 0;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .foot p {
+    position: relative; 
+  }
+
+  .foot span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  
+  }
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.informational{
+  font-size: 17px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+<div class="bgimg-1">
+  <div class='logo'>
+    <img src="img_tsclogo.png" alt="logo" >
+  </div>
+  
+  <div class="caption">
+  <span class="border">What kind of world do we want to live in?</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Who Are We?</h3>
+  <p class="informational">A humanitarian organization that believes in connection free of judgement and labels. The mission of The Social Condition is to encourage the creation of authentic, empathic relationships through global collaboration. We believe that our unique expression as human beings is only able to be understood within the limitations of our current world. Our vision is diverse unity, social acceptance, and understanding, and for this, we seek change at both the micro and macro levels. We strive to influence expansive awareness and acceptance at a personal level, promote advocacy and de-isolation within our communities, and encourage complimentary individuality within a united world. </p>
+</div>
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p class="informational">Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque</p>
+  </br>
+  <br>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="foot">
+    <div class="list">
+    <ul class="social">
+        <li class="youtube">
+          <a href="https://www.youtube.com/channel/UCFr7NHPT-Xi9ovTIoX2LD3Q?view_as=subscriber" aria-hidden="true" target="_blank">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/ConditionSocial" aria-hidden="true" target="_blank">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="instagram">
+          <a href="https://www.instagram.com/thesocialcondition/" aria-hidden="true" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="https://www.facebook.com/thesocialcondition" aria-hidden="true" target="_blank">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+        <p>	&copy; The Social Condition 2020 - All rights reserved</p>
+  </div>
+</div>
+
+</body>
+</html>
