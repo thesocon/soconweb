@@ -4,6 +4,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 <style>
 
   
@@ -167,12 +169,16 @@ h3 {
 }
 
 .quote{
-  font-size: 50px;
+  font-size: 14px;
   padding: 10px;
   align-items: center;
   text-align: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.video{
+  max-height: 25%;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -206,9 +212,11 @@ h3 {
 
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p class="quote">The standards we set reflect in the life we get</p>
-  </br>
-  <br>
+  <!-- <p class="quote">The standards we set reflect in the life we get</p> -->
+  <div class="video embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
+  
   </div>
 </div>
 
@@ -241,6 +249,7 @@ h3 {
         <p>	&copy; The Social Condition 2020 - All rights reserved</p>
   </div>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
